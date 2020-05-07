@@ -1,0 +1,86 @@
+main.reactive-grid{
+    margin-top:3em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 6em);
+    grid-gap: .1em;
+    margin-bottom: 4em;
+}
+h1.titul{
+    text-align: center;
+  font-size: 7.5em;
+  margin: auto;
+  margin-top: .8em;
+  margin-bottom: 0;
+  padding: .3em;
+  color: #6448F0;
+  outline: none !important;
+  user-select: none;
+}
+div.elementOfReactiveSeries{
+    background-image: linear-gradient(-225deg, #D859FF, #5F00CC);
+    padding: auto;
+    padding-top: 1.2em;
+    box-shadow: 
+      0 5px 10px 0 rgba(0,0,0, .1), 
+      0 4px 4px 0 rgba(0,0,0, .2);
+    color: white;
+    justify-content: center;
+    position: relative;
+    line-height: .2em;
+    border-radius: .7em;
+    height: auto;
+    width: 5.4em;
+    margin: auto;
+    margin-bottom: .8em;
+}
+
+p.name-reactive{
+    font-size: medium;
+    margin-bottom: 1.2em;
+    font-weight: 500;
+}
+
+strong.element-reactive{
+    margin: 1em;
+    margin-top: .8em;
+    margin-bottom: 0em;
+    font-size: 3.3em;
+    line-height: .6em;
+}
+
+sup.number-reactive{
+    position:  absolute;
+    left: .45em;
+    top: 1em;
+    font-size: 1.1em;
+}
+
+div.elementOfReactiveSeries.gradient103{
+
+    background-image: linear-gradient(-225deg, #D859FF, #5F00CC);
+}
+div.elementOfReactiveSeries.gradient101{
+    background-image: linear-gradient(-225deg, rgb(205, 50, 252), rgb(245, 13, 13));
+
+}
+div.elementOfReactiveSeries.gradient102{
+    background-image: linear-gradient(-225deg, #00BAE8, #9A009A);
+
+}
+
+
+@media(max-width: 500px){
+    main.reactive-grid{
+        margin-top:1em;
+    }
+    span.signature.reactive{
+        margin-top:-1em;
+        position: relative;
+    }
+    #reactive{
+        position: relative;
+    }
+    h1.titul{
+        font-size: 6em;
+    }
+}

@@ -1,0 +1,142 @@
+body{
+  font-family: 'Nunito';
+  background: white;
+  outline: none !important;
+  user-select: none;
+  
+}
+
+#bg{
+  width: 1px;
+  height: 1px;
+  display: block;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#bg::after {
+  content: "";
+  background: url("https://images.theconversation.com/files/121885/original/image-20160510-20731-1pf8nwv.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip");
+  opacity: 0.05;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;   
+}
+
+h1{
+  text-align: center;
+  font-size: 7.5em;
+  margin-bottom: .5em;
+  color: #6448F0;
+}
+
+strong{
+  font-size: 2.2em;
+}
+
+.sup{
+  font-size: .5em;
+  color: black;
+}
+
+.center{
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+
+h2{
+  font-family: 'Nunito';
+  text-align: center;
+  font-size: 6em;
+  margin: .1em;
+  margin-top: .3em;
+  color: #6448F0;
+}
+
+
+.back-btn{
+  background-color: white;
+  border: none;
+  color: rgba(0,0,0,.8);
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  font-size: 1em;
+  border-radius: 1.2em;
+  outline: none !important;
+  user-select: none;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0, .11);
+  bottom: 3em;
+  padding: 1.2em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+.back-btn:hover{
+  transform: scale(1.03);
+  box-shadow: 0 7px 7px 0 rgba(0,0,0, .17);
+}
+
+.back-btn:active{
+  transform: scale(0.97);
+  box-shadow: 3px 3px 3px 0 rgba(0,0,0, .1);
+}
+
+
+#gradientOne{
+  background-image: linear-gradient( 110deg,  rgba(140,253,242,1) -9.7%, rgba(81,162,228,1) 35.5%, rgba(154,16,154,1) 92.5% );
+}
+#gradientTwo{
+  background-image: linear-gradient( -220deg,  rgba(255,37,174,1) 11.2%, rgba(250,237,56,1) 91.1% );
+}
+#gradientThree{
+  background-image: linear-gradient( -220deg,  rgb(64, 110, 235) 9.6%, rgba(205,77,204,1) 93.6% );
+}
+#gradientFour{
+  background-image: linear-gradient( -220deg,  rgba(228,242,56,1) 23.3%, rgba(19,220,224,1) 79% );
+}
+#gradientFive{
+  background-image: radial-gradient( circle farthest-corner at 2.9% 7.7%,  rgb(190, 59, 199) 0%, rgba(254,101,101,1) 90% );
+}
+#gradientSix{
+  background-image: linear-gradient( -220deg,  rgba(244,199,62,1) -3.8%, rgba(244,62,62,1) 46.8%, rgba(245,61,195,1) 98.8% );
+}
+#gradientSeven{
+  background-image: radial-gradient( circle farthest-corner at -0.6% 44.4%,  rgb(213, 65, 243) 0%,rgb(34, 53, 231) 90% );
+}
+#gradientEight{
+  background-image: radial-gradient( circle farthest-corner at -0.6% 44.4%,  rgba(142,252,152,1) 0%, rgba(107,214,250,1) 90% );
+}
+#gradientNine{
+  background-image: linear-gradient( -330deg,  rgba(123,90,224,1) 11.2%, rgba(164,46,253,1) 32.6%, rgba(213,56,234,1) 62.7%, rgba(251,138,52,1) 100.2% );
+}
+#gradientTen{
+  background-image: linear-gradient(-225deg, #D859FF, #5F00CC);
+} 
+#gradientTenReverse{
+  background-image: linear-gradient(225deg, #D859FF, #5F00CC);
+} 
+#gradientEleven{
+  background-image: linear-gradient(-225deg, #00BAE8, #9A009A);
+} 
+#gradientTwelve{
+  background-image: linear-gradient(-225deg, #D859FF, #FF2020);
+} 
+#gradientTwelveReverse{
+  background-image: linear-gradient(225deg, #D859FF, #FF2020);
+} 
+#gradientThirteen{
+  background-image: linear-gradient(-225deg, rgb(255, 89, 200), rgb(71, 0, 204));
+} 
+
+

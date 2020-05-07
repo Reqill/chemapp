@@ -1,0 +1,83 @@
+.elementOfListOfElements{
+    background-image: linear-gradient(-225deg, #D859FF, #5F00CC);
+    padding: auto;
+    padding-top: 1.2em;
+    box-shadow: 
+      0 5px 10px 0 rgba(0,0,0, .1), 
+      0 4px 4px 0 rgba(0,0,0, .2);
+    color: white;
+    justify-content: center;
+    position: relative;
+    line-height: .2em;
+    border-radius: .7em;
+    height: auto;
+    width: 7.6em;
+    margin: auto;
+}
+
+.description{
+    color: rgba(0,0,0,.8);
+    display: inline-block;
+    padding-left:1.5em;
+    padding-top:0;
+    margin-top:0;
+    width: 33em;
+}
+
+@media(max-width: 719px){
+    .description{
+        width: auto;
+    }
+}
+
+.summary{
+    color: rgba(0,0,0,.55);
+    font-size: .95em;
+    margin-top: .4em;
+
+}
+
+.element{
+    margin: 1em;
+    margin-top: .7em;
+    margin-bottom: .1em;
+    font-size: 5em;
+    line-height: .6em;
+}
+
+.number{
+    position:  absolute;
+    left: .6em;
+    top: 1.1em;
+    font-size: 1.2em;
+}
+
+.mass{
+    font-size: medium;
+    margin-bottom: 1.2em;
+}
+
+td {
+    padding-top: 1.5em;
+    display: inline-block;
+    margin-top: .8em;
+}
+tr{
+    position: relative;
+    justify-content: center; 
+    height: auto;
+    display: flex;
+}
+
+h3{
+    font-size:1.3em;
+    padding-top: 0;
+    margin: 0;
+    margin-top: .2em;
+}
+
+
+#bank-btn{
+    position:fixed;
+    margin-bottom: -2em;
+}

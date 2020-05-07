@@ -1,0 +1,101 @@
+
+  .biggrid{
+    display: grid;
+    grid-template-rows: 4em,  4em,  4em,  4em,  4em,  4em,  4em, 1em, 4em, 4em  ;
+    grid-template-columns: repeat(18, 3.5em);
+    grid-row-gap: .22em;
+    grid-column-gap: .33em;
+    margin-top: 1em;
+    justify-content: center;
+    padding-bottom: 4em;
+    margin-bottom: 1em;
+    position: relative;
+    overflow: hidden; 
+  } 
+
+  #yeeeeeeet{
+    position: relative;
+    margin: 0;
+  }
+  span.signature.periodic{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    margin-top: -1.2em;
+    margin-bottom: .5em;
+  }
+
+  @media(max-width: 70em){
+    #scrollable{
+      position: absolute; 
+      overflow: hidden;
+    }
+    .biggrid{
+      margin-right: .4em;
+      padding-right: .4em;
+      padding-left: .2em;
+    }
+  }
+
+  @media(max-width: 450px){
+    #scrollable{
+      position: absolute; 
+      overflow: hidden;
+    }
+  }
+
+  .periodicCard{
+    background-image: linear-gradient(-225deg, #D859FF, #5F00CC);
+    padding: auto;
+    padding-top: 0.6em;
+    box-shadow: 
+      0 5px 10px 0 rgba(0,0,0, .1), 
+      0 4px 4px 0 rgba(0,0,0, .2);
+    color: white;
+    justify-content: center;
+    position: relative;
+    line-height: .1em;
+    border-radius: .35em;
+    height: auto;
+  }
+
+  .periodicElement{
+    margin: .5em;
+    margin-top: .9em;
+    margin-bottom: .1em;
+    font-size: xx-large;
+    line-height: .3em;
+  }
+
+  .periodicZ{
+    position:  absolute;
+    left: .3em;
+    top: .737em;
+  }
+  .periodicMass{
+    font-size: small;
+    margin-bottom: .6em;
+  }
+  .blank{
+      background-color: rgba(255,255,255,0);
+      background-image: none;
+      color: rgba(255,255,255,0);
+      box-shadow: none;
+      height: .5em;
+  }
+
+  #lanthanoids{
+    background-image: linear-gradient(-200deg, rgb(41, 205, 255), #A6009B);
+  }
+
+  #actinoids{
+    background-image: linear-gradient(-225deg, #00BAE8, #9A009A);
+  }
+
+  #notMetal{
+    background-image: linear-gradient(-225deg, rgb(255, 97, 216), rgb(175, 10, 18));
+  }
+
+  #periodic-btn{
+    position: fixed;
+  }

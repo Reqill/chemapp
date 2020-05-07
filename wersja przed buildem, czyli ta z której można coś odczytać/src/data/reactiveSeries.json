@@ -1,0 +1,80 @@
+[
+    {
+        "symbol": "K",
+        "name": "Potassium",
+        "number": "19",
+        "idx": "more-reactive"
+    },
+    {
+        "symbol": "Na",
+        "name": "Sodium",
+        "number": "11",
+        "idx": "more-reactive"
+    },
+    {
+        "symbol": "Ca",
+        "name": "Calcium",
+        "number": "20",
+        "idx": "more-reactive"
+    },
+    {
+        "symbol": "Mg",
+        "name": "Magnesium",
+        "number": "12",
+        "idx": "more-reactive"
+    },
+    {
+        "symbol": "Al",
+        "name": "Aluminium",
+        "number": "13",
+        "idx": "more-reactive"
+    },
+    {
+        "symbol": "Zn",
+        "name": "Zinc",
+        "number": "30",
+        "idx": "more-reactive"
+    },
+    {
+        "symbol": "Fe",
+        "name": "Iron",
+        "number": "26",
+        "idx": "more-reactive"
+    },
+    {
+        "symbol": "Sn",
+        "name": "Tin",
+        "number": "50",
+        "idx": "more-reactive"
+    },
+    {
+        "symbol": "Pb",
+        "name": "Lead",
+        "number": "82",
+        "idx": "more-reactive"
+    },
+    {
+        "symbol": "H",
+        "name": "Hydrogen",
+        "number": "1",
+        "idx": "-"
+    },
+    {
+        "symbol": "Cu",
+        "name": "Copper",
+        "number": "29",
+        "idx": "less-reactive"
+    },
+    {
+        "symbol": "Ag",
+        "name": "Silver",
+        "number": "47",
+        "idx": "less-reactive"
+    },
+    {
+        "symbol": "Au",
+        "name": "Gold",
+        "number": "79",
+        "idx": "less-reactive"
+    }
+]
